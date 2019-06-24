@@ -1,0 +1,59 @@
+
+//ADD Table
+{
+    "master": "Victor",
+    "users": [
+        {
+            "name": "Otavio",
+            "email": "ccc@hotamil.com",
+            "pass": "123",
+            "account": -456
+        },
+        {
+            "name": "MarcioF",
+            "email": "bbb@hotamil.com",
+            "pass": "123",
+            "account": -123
+        }
+    ],
+    "products": [
+        {
+            "name": "Galinha",
+            "price": 30.989999771118164
+        }
+    ],
+    "account": 1
+}
+
+//Update Table
+
+{
+    "filter": {
+        "master": "Victor"
+    },
+    "update": {
+        "master": "Carlitos",
+        "users": [
+            {
+                "name": "Victor",
+                "email": "aaa@hotamil.com",
+                "pass": "123",
+                "account": -456
+            },
+            {
+                "name": "MarcioF",
+                "email": "bbb@hotamil.com",
+                "pass": "123",
+                "account": -123
+            }
+        ],
+        "products": [
+            {
+                "name": "Tilapia",
+                "price": 60.989999771118164
+            }
+        ],
+        "account": 1
+    }
+}
+
