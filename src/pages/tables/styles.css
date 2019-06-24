@@ -1,0 +1,28 @@
+.table-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.table-list article {
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.table-list article strong {
+    font-size: 20px;
+}
+
+.table-list article p {
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.table-list article p#destaque {
+    font-size: 16px;
+    font-weight: bold;
+}
